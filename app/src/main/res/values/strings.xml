@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobileConfig</string>
+    <string name="hello_world">Hello world!</string>
+
+	<string-array name="webClipUAEntries">
+        <item>Default</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+
+    <string-array name="webClipUAEntriesValues">
+        <item>default</item>
+        <item>iphone</item>
+        <item>ipad</item>
+    </string-array>
+</resources>
