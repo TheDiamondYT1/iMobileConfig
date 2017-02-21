@@ -36,6 +36,9 @@ public class MoreDetailsActivity extends AppCompatActivity {
 				    String value = isTrue(nodeList.item(i+1)) ? "No" : "Yes";
                     ((TextView) findViewById(R.id.payloadRemovalTextView)).setText(value);
                 }
+				if(Utils.getTextValue(childNode).equals("PayloadUUID")) {
+					((TextView) findViewById(R.id.payloadUUIDTextView)).setText(nodeList.item(i+1).getTextContent().trim());
+				}
 			} 
 		} 
 	}
