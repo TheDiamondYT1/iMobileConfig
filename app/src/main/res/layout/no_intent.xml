@@ -1,0 +1,24 @@
+<!-- HORRIBLE code - only temporary -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+    android:orientation="vertical"
+	android:gravity="center">
+	
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:padding="50dp"
+		android:gravity="center"
+		android:textSize="25sp"
+		android:text="Oops!\n\nPlease select a .mobileconfig file using a file manager or from a URL for this app to work." />
+	
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:padding="10dp"
+		android:gravity="center"
+		android:layout_alignParentBottom="true"
+		android:textSize="17sp"
+		android:text="\n\n\n\n\n(I may add a file chooser so you can select from in this app)" />
+</LinearLayout>
